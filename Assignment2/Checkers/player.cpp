@@ -1,6 +1,7 @@
 #include "player.hpp"
 #include <cstdlib>
 # include <climits>
+// thanks for HongSheng Cheng's advice and checking for the code
 namespace checkers
 {
 int Player::JumpCheck(const GameState &pState,uint8_t player){

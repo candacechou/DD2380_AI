@@ -165,7 +165,7 @@ GameState Player::play(const GameState &pState,const Deadline &pDue)
      for(int i = 0; i< lChild;i++){
        alphas = -std::numeric_limits<int>::max();
        betas  = std::numeric_limits<int>::max();
-       v = alphabeta(lNextStates[i],maxDepth,alphas,betas,maxPlayer);
+       v = alphabeta(lNextStates[i],maxDepth,alphas,betas,minPlayer);
        if(v > maxv){
          maxv = v;
          maxID = i;

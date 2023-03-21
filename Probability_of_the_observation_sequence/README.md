@@ -1,4 +1,4 @@
-## PROBABILITY OF THE OBSERVATION SEQUENCE
+## Probability of the observation sequence
 
 This is the practice of calculating the probability of the observation sequence. 
 We can make use of the so called forward algorithm or $\alpha$-pass algorithm.

@@ -3,14 +3,14 @@
 This is the practice of calculating next observation distribution of a hidden Markov Model.
 
 ### Input
-You will be given three matrices (in this order); transition matrix, emission matrix, and initial state probability distribution. The initial state probability distribution is a row vector encoded as a matrix with only one row. Each matrix is given on a separate line with the number of rows and columns followed by the matrix elements (ordered row by row). 
+Three matrices, in this order, will be provided:transition matrix, emission matrix, and initial state probability distribution. The initial state probability distribution is a row vector encoded as a matrix with only one row. Each matrix is given on a separate line with the number of rows and columns followed by the matrix elements (ordered row by row). 
 
-the example input is stored in sample_00.in
+The example input is stored in sample_00.in
 
 ### Expected Output
-The emission probability distribution.
 
-the example output answer is stored in sample_00.ans
+The emission probability distribution.
+The example output answer is stored in sample_00.ans
 
 ### Compile
 
